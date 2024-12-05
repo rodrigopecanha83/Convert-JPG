@@ -1,0 +1,46 @@
+# Ignorar o ambiente virtual
+venv/
+env/
+
+# Ignorar arquivos e pastas temporários do Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar logs e saídas de depuração
+*.log
+
+# Ignorar configurações do editor de código
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de testes e relatórios
+*.coverage
+*.pytest_cache/
+htmlcov/
+
+# Ignorar arquivos gerados pelo Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar dependências instaladas diretamente
+*.egg-info/
+.eggs/
+
+# Ignorar builds e distribuições
+build/
+dist/
+*.egg
+*.wheel
+
+# Ignorar arquivos de backup
+*.bak
+*.swp
+
+# Ignorar chaves ou configurações sensíveis
+.env
